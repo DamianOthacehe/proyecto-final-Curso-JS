@@ -1,7 +1,7 @@
 [
     {
         "id": "diamante-01",
-        "titulo": "diamante 01",
+        "titulo": "Diamante 01",
         "imagen": "./img/diamante-1.jpg",
         "categoria": {
             "nombre": "diamantes",
@@ -11,7 +11,7 @@
     },
     {
         "id": "diamante-02",
-        "titulo": "diamante 02",
+        "titulo": "Diamante 02",
         "imagen": "./img/diamante-2.jpg",
         "categoria": {
             "nombre": "diamantes",
@@ -21,7 +21,7 @@
     },
     {
         "id": "diamante-03",
-        "titulo": "diamante 03",
+        "titulo": "Diamante 03",
         "imagen": "./img/diamante-3.jpg",
         "categoria": {
             "nombre": "diamantes",
@@ -31,7 +31,7 @@
     },
     {
         "id": "diamante-04",
-        "titulo": "diamante 04",
+        "titulo": "Diamante 04",
         "imagen": "./img/diamante-4.jpg",
         "categoria": {
             "nombre": "diamantes",
@@ -41,7 +41,7 @@
     },
     {
         "id": "fish-01",
-        "titulo": "fish 01",
+        "titulo": "Fish 01",
         "imagen": "./img/fish-1.jpg",
         "categoria": {
             "nombre": "fishes",
@@ -51,7 +51,7 @@
     },
     {
         "id": "fish-02",
-        "titulo": "fish 02",
+        "titulo": "Fish 02",
         "imagen": "./img/fish-2.jpg",
         "categoria": {
             "nombre": "fishes",
@@ -61,7 +61,7 @@
     },
     {
         "id": "fish-03",
-        "titulo": "fish 03",
+        "titulo": "Fish 03",
         "imagen": "./img/fish-3.jpg",
         "categoria": {
             "nombre": "fishes",
@@ -71,7 +71,7 @@
     },
     {
         "id": "fish-04",
-        "titulo": "fish 04",
+        "titulo": "Fish 04",
         "imagen": "./img/fish-4.jpg",
         "categoria": {
             "nombre": "fishes",
@@ -81,7 +81,7 @@
     },
     {
         "id": "huevo-01",
-        "titulo": "Pantalón 01",
+        "titulo": "Huevo 01",
         "imagen": "./img/huevo-1.jpg",
         "categoria": {
             "nombre": "huevos",
@@ -91,7 +91,7 @@
     },
     {
         "id": "huevo-02",
-        "titulo": "Pantalón 02",
+        "titulo": "Huevo 02",
         "imagen": "./img/huevo-2.jpg",
         "categoria": {
             "nombre": "huevos",
@@ -101,7 +101,7 @@
     },
     {
         "id": "huevo-03",
-        "titulo": "Pantalón 03",
+        "titulo": "Huevo 03",
         "imagen": "./img/huevo-3.jpg",
         "categoria": {
             "nombre": "huevos",
@@ -111,7 +111,7 @@
     },
     {
         "id": "huevo-04",
-        "titulo": "Pantalón 04",
+        "titulo": "Huevo 04",
         "imagen": "./img/huevo-4.jpg",
         "categoria": {
             "nombre": "huevos",

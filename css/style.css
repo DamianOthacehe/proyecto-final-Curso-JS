@@ -134,3 +134,32 @@ main{
     color: var(--clr-main);
     margin-bottom: 2rem;
 }
+
+.insumos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.producto-imagen{
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
+.addToCart{
+    width: 100%;
+    border: 0;
+    background-color: var(--clr-main);
+    color: var(--clr-main-light);
+    padding: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid var(--clr-white);
+    transition: background-color.2s, color .2s;
+}
+
+.addToCart:hover{
+    color: var(--clr-orange);
+}
