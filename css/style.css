@@ -3,3 +3,134 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --clr-main:#37587E;
+    --clr-main-light:#a8dff9;
+    --clr-orange:#ECB159;
+    --clr-black:black;
+    --clr-white: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: var(--clr-main)
+}
+
+aside{
+    padding: 2rem;
+    padding-right: 0;
+    color: var(--clr-white);
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.boton-menu{
+    background-color: transparent;
+    border: 0;
+    color: var(--clr-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-size: .85rem;
+    width: 100%;
+}
+
+.boton-menu.active{
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: relative;
+}
+
+.boton-menu.active::before{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    bottom: 100%;
+    right: 0;
+    background-color: transparent;
+    border-bottom-right-radius: .5rem;
+    box-shadow: 0 1rem 0 var(--clr-white);
+}
+
+.boton-menu.active::after{
+    content: "";
+    position: absolute;
+    width: 1rem;
+    height: 2rem;
+    top: 100%;
+    right: 0;
+    background-color: transparent;
+    border-top-right-radius: .5rem;
+    box-shadow: 0 -1rem 0 var(--clr-white);
+}
+
+.boton-carrito{
+    margin-top: 3rem;
+}
+
+.numerito{
+    background-color: var(--clr-white);
+    color: var(--clr-main);
+    padding: .15rem .25rem;
+    border-radius: .25rem;
+}
+
+.boton-login{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto-footer{
+    color: var(--clr-main-light);
+    font-size: .85rem;
+}
+
+main{
+    background-color: var(--clr-white);
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+.titulo-principal{
+    color: var(--clr-main);
+    margin-bottom: 2rem;
+}

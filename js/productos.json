@@ -1,0 +1,122 @@
+[
+    {
+        "id": "diamante-01",
+        "titulo": "diamante 01",
+        "imagen": "./img/diamante-1.jpg",
+        "categoria": {
+            "nombre": "diamantes",
+            "id": "diamantes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diamante-02",
+        "titulo": "diamante 02",
+        "imagen": "./img/diamante-2.jpg",
+        "categoria": {
+            "nombre": "diamantes",
+            "id": "diamantes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diamante-03",
+        "titulo": "diamante 03",
+        "imagen": "./img/diamante-3.jpg",
+        "categoria": {
+            "nombre": "diamantes",
+            "id": "diamantes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diamante-04",
+        "titulo": "diamante 04",
+        "imagen": "./img/diamante-4.jpg",
+        "categoria": {
+            "nombre": "diamantes",
+            "id": "diamantes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "fish-01",
+        "titulo": "fish 01",
+        "imagen": "./img/fish-1.jpg",
+        "categoria": {
+            "nombre": "fishes",
+            "id": "fishes"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "fish-02",
+        "titulo": "fish 02",
+        "imagen": "./img/fish-2.jpg",
+        "categoria": {
+            "nombre": "fishes",
+            "id": "fishes"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "fish-03",
+        "titulo": "fish 03",
+        "imagen": "./img/fish-3.jpg",
+        "categoria": {
+            "nombre": "fishes",
+            "id": "fishes"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "fish-04",
+        "titulo": "fish 04",
+        "imagen": "./img/fish-4.jpg",
+        "categoria": {
+            "nombre": "fishes",
+            "id": "fishes"
+        },
+        "precio": 2000
+    },
+    {
+        "id": "huevo-01",
+        "titulo": "Pantalón 01",
+        "imagen": "./img/huevo-1.jpg",
+        "categoria": {
+            "nombre": "huevos",
+            "id": "huevos"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "huevo-02",
+        "titulo": "Pantalón 02",
+        "imagen": "./img/huevo-2.jpg",
+        "categoria": {
+            "nombre": "huevos",
+            "id": "huevos"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "huevo-03",
+        "titulo": "Pantalón 03",
+        "imagen": "./img/huevo-3.jpg",
+        "categoria": {
+            "nombre": "huevos",
+            "id": "huevos"
+        },
+        "precio": 3000
+    },
+    {
+        "id": "huevo-04",
+        "titulo": "Pantalón 04",
+        "imagen": "./img/huevo-4.jpg",
+        "categoria": {
+            "nombre": "huevos",
+            "id": "huevos"
+        },
+        "precio": 3000
+    }
+]

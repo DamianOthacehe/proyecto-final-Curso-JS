@@ -8,6 +8,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
-</body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Maui boards</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><img src="./img/icono-tablas.png" alt="icono-tablas"> Todas las tablas</button>
+                    </li>
+                    <li>
+                        <button id="diamante" class="boton-menu boton-categoria"><img src="./img/icono-tabla.png" alt="icono-tabla">Diamante</button>
+                    </li>
+                    <li>
+                        <button id="fish" class="boton-menu boton-categoria"><img src="./img/icono-tabla.png" alt="icono-tabla">Fish</button>
+                    </li>
+                    <li>
+                        <button id="huevo" class="boton-menu boton-categoria"><img src="./img/icono-tabla.png" alt="icono-tabla">Huevo</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./pages/carrito.html"><img src="./img/carrito.png" alt="carrito">
+                            Carrito <span id="numerito" class="numerito">0</span></a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-login" href="./pages/registro.html">Ingresar / Registrarse</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <ul class="links">
+                    <li><img src="./img/logo-facebook.png" alt="facebook"></li>
+                    <li><img src="./img/logo-instagram.png" alt="instagram"></li>
+                    <li><img src="./img/logo-mail.png" alt="email"></li>
+                    <li><img src="./img/logo-whatsapp.png" alt="whatsapp"></li>
+                </ul>
+                <p class="texto-footer">© 2024 Damian Othacehe</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 id="titulo-principal" class="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a completar con JS -->
+            </div>
+        </main>
+    </div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="./js/main.js"></script>
+    </body>
 </html>
