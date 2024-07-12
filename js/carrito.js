@@ -29,20 +29,22 @@ function mostrarCarrito(){
             <h5>Subtotal</h5>
             <p>$${item.subtotal}</p>
         </div>
-        <button class="boton-eliminar" id = "${item.id}"><img src="../img/eliminar.png" alt="eliminar">
+        <button class="boton-eliminar" onclick="eliminarProducto('${item.id}')"><img src="../img/eliminar.png" alt="eliminar">
         </button>`;
         cartDiv.appendChild(cartItemDiv);
     });
 
 const totalDiv = document.createElement("div");
-    totalDiv.innerHTML = `<h3>Total General: $${totalGeneral}</h3>`;
+    totalDiv.innerHTML = `<h2>Total: $${totalGeneral}</h2>`;
     cartDiv.appendChild(totalDiv);
+    totalDiv.classList.add("total");
 
     const botonesDiv = document.createElement("div");
     botonesDiv.innerHTML = `
-        <button onclick="comprar()">Comprar</button>
-        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+    <button class="boton-vaciar" onclick="vaciarCarrito()">Vaciar Carrito</button>
+        <button class="boton-comprar" onclick="comprar()">Comprar</button>
     `;
+    botonesDiv.classList.add("botonesDiv")
     cartDiv.appendChild(botonesDiv);
 };
 
@@ -59,6 +61,13 @@ function agregarOQuitarElementos(productId, boton) {
         saveCartToLocalStorage(cart);
         mostrarCarrito(); // Vuelve a mostrar el carrito
     }
+}
+
+function eliminarProducto(productId) {
+    let cart = loadCartFromLocalStorage();
+    cart = cart.filter(item => item.id !== productId);
+    saveCartToLocalStorage(cart);
+    mostrarCarrito();
 }
 
 function comprar() {

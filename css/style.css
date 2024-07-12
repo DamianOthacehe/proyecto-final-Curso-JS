@@ -46,7 +46,7 @@ aside{
 .menu{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
+    gap: 2rem;
 }
 
 .boton-menu{
@@ -96,26 +96,14 @@ aside{
     box-shadow: 0 -1rem 0 var(--clr-white);
 }
 
-.boton-carrito{
-    margin-top: 3rem;
-}
-
-.numerito{
-    background-color: var(--clr-white);
-    color: var(--clr-main);
-    padding: .15rem .25rem;
-    border-radius: .25rem;
+/* .boton-carrito{
+    margin: 3rem 0;
 }
 
 .boton-login{
     font-weight: 400;
     font-size: 1.3rem;
-}
-
-.links{
-    display: flex;
-    justify-content: space-between;
-}
+} */
 
 .texto-footer{
     color: var(--clr-main-light);
@@ -138,7 +126,7 @@ main{
 .insumos{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .producto-imagen{
@@ -154,7 +142,7 @@ main{
     padding: .5rem;
     text-transform: uppercase;
     font-weight: bold;
-    border-radius: 2rem;
+    border-radius: .8rem;
     cursor: pointer;
     border: 2px solid var(--clr-white);
     transition: background-color.2s, color .2s;
@@ -203,4 +191,47 @@ main{
     background: none;
     border: none;
     cursor: pointer;
+}
+.total{
+    text-align: end;
+    color: var(--clr-main);
+}
+
+.botonesDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-vaciar{
+    padding: 1rem;
+    background-color: var(--clr-main-light);
+    color: var(--clr-main);
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+.boton-comprar{
+    padding: 1rem;
+    background-color: var(--clr-main);
+    color: var(--clr-main-light);
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
+
+/** REGISTRO **/
+
+.registro{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ingresar{
+    display: flex;
+    flex-direction: column;
+}
+
+.registrarse{
+    display: flex;
+    flex-direction: column;
 }

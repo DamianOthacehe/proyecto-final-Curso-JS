@@ -3,11 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Maui Shop</title>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
-    
-</body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Maui boards</h1>
+            </header>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="boton-menu boton-volver" href="../index.html"><img src="../img/icono-tablas.png" alt="icono-tablas">
+                            Nuestras tablas</a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html"><img src="../img/carrito.png" alt="carrito">
+                            Carrito</a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-login active" href="./pages/registro.html">Ingresar / Registrarse</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2024 Damian Othacehe</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 id="titulo-principal" class="titulo-principal">Registro</h2>
+            <section class="registro">
+                <div id="ingresar" class="ingresar">
+                    <h3>Ingresar</h3>
+                    <label for="usuario">Ingrese su usuario</label>
+                    <input type="text" id="usuario" placeholder="Usuario" required>
+                    
+                    <label for="password">Ingrese su contraseña</label>
+                    <input type="password" id="pasword" placeholder="contraseña" required>
+                    
+                    <input type="submit" class="submit">
+                </div>
+                <div id="registrarse" class="registrarse">
+                    <h3>Registrarse</h3>
+                    <label for="nombre">Ingrese su nombre completo</label>
+                    <input type="text" id="nombre" placeholder="Nombre" required>
+
+                    <label for="telefono">Ingrese su numero de telefono</label>
+                    <input type="tel" id="telefono" placeholder="Telefono">
+
+                    <label for="email">Ingrese su e-mail</label>
+                    <input type="email" id="email" placeholder="e-mail" required>
+
+                    <label for="nuevoUsuario">Ingrese su usuario</label>
+                    <input type="text" id="nuevoUsuario" placeholder="Usuario" required>
+
+                    <label for="nuevoPassword">Ingrese su contraseña</label>
+                    <input type="password" id="nuevoPassword" placeholder="contraseña" required>
+                    
+                    <input type="submit" class="submit">
+                </div>
+            </section>
+        </main>
+    </div>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+        <script src="../js/registro.js"></script>
+    </body>
 </html>
