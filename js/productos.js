@@ -42,6 +42,7 @@ function addToCart(productId, cantidad){//para cuando el producto no existe
             cart.push({
                 id: insumo.id,
                 nombre: insumo.titulo,
+                imagen: insumo.imagen,
                 precio: insumo.precio,
                 cantidad: cantidad,
                 subtotal: cantidad * insumo.precio

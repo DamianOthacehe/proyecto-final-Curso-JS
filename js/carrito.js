@@ -6,11 +6,31 @@ function mostrarCarrito(){
     cart.forEach(item => {
         totalGeneral += item.subtotal;
         const cartItemDiv = document.createElement("div");
+        cartItemDiv.classList.add("cart-div");
         cartItemDiv.innerHTML = `
-            <p>Producto: ${item.nombre.toUpperCase()}, Cantidad: ${item.cantidad}, Subtotal: $${item.subtotal}</p>
-            <button onclick="agregarOQuitarElementos('${item.id}', 1)">+ 1</button>
-            <button onclick="agregarOQuitarElementos('${item.id}', -1)">- 1</button>
-        `;
+        <img class="carrito-producto-imagen" src="${item.imagen}" alt="${item.nombre}">
+        <div class="carrito-producto-titulo">
+            <h5>Nombre</h5>
+            <h3>${item.nombre}</h3>
+        </div>
+        <div class="carrito-producto-cantidad">
+            <h5>Cantidad</h5>
+            <div class= "boton-cantidad">
+                <p>${item.cantidad}</p>
+                <button onclick="agregarOQuitarElementos('${item.id}', 1)">+ 1</button>
+                <button onclick="agregarOQuitarElementos('${item.id}', -1)">- 1</button>
+            </div>
+        </div>
+        <div class="carrito-producto-precio">
+            <h5>Precio</h5>
+            <p>$${item.precio}</p>
+        </div>
+        <div class="carrito-producto-subtotal">
+            <h5>Subtotal</h5>
+            <p>$${item.subtotal}</p>
+        </div>
+        <button class="boton-eliminar" id = "${item.id}"><img src="../img/eliminar.png" alt="eliminar">
+        </button>`;
         cartDiv.appendChild(cartItemDiv);
     });
 
