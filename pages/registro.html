@@ -35,7 +35,7 @@
         <main>
             <h2 id="titulo-principal" class="titulo-principal">Registro</h2>
             <section class="registro">
-                <div id="ingresar" class="ingresar">
+                <form id="ingresar" class="ingresar" action="">
                     <h3>Ingresar</h3>
                     <label for="usuario">Ingrese su usuario</label>
                     <input type="text" id="usuario" placeholder="Usuario" required>
@@ -44,8 +44,8 @@
                     <input type="password" id="pasword" placeholder="contraseña" required>
                     
                     <input type="submit" class="submit">
-                </div>
-                <div id="registrarse" class="registrarse">
+                </form>
+                <form id="registrarse" class="registrarse" action="">
                     <h3>Registrarse</h3>
                     <label for="nombre">Ingrese su nombre completo</label>
                     <input type="text" id="nombre" placeholder="Nombre" required>
@@ -63,11 +63,13 @@
                     <input type="password" id="nuevoPassword" placeholder="contraseña" required>
                     
                     <input type="submit" class="submit">
-                </div>
+                </form>
             </section>
         </main>
     </div>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
         <script src="../js/registro.js"></script>
+        <script src="./js/productos.js"></script>
+        <script src="./js/carrito.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     </body>
 </html>

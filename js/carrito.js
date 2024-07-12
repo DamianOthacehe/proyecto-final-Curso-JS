@@ -71,6 +71,15 @@ function eliminarProducto(productId) {
 }
 
 function comprar() {
+    const usuarioLogueado = JSON.parse(sessionStorage.getItem("usuarioLogueado"));
+    if (!usuarioLogueado) {
+        Swal.fire({
+            icon: "error",
+            title: "Inicia sesion para realizar tu compra",
+            footer: '<a href="../pages/registro.html">Iniciar sesion / registrarme</a>'
+        });
+        return;
+    }
     let cart = loadCartFromLocalStorage();
     if (cart.length > 0) {
         // Muestra una alerta de compra realizada
