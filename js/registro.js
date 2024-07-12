@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         usuarios.push(nuevoUsuario);
         guardarUsuarios(usuarios);
 
-        alert("Usuario registrado con éxito");
+        Swal.fire("Usuario registrado con exito");
         registrarseForm.reset();
     }
 
