@@ -97,15 +97,6 @@ aside{
     box-shadow: 0 -1rem 0 var(--clr-white);
 }
 
-/* .boton-carrito{
-    margin: 3rem 0;
-}
-
-.boton-login{
-    font-weight: 400;
-    font-size: 1.3rem;
-} */
-
 .texto-footer{
     color: var(--clr-main-light);
     font-size: .85rem;
